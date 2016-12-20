@@ -63,6 +63,11 @@ body {
 	font-size: 18px;
 	color: #fff;
     line-height: 30px;
+	display: block; /* Was inline-block before */
+	background: black;
+	padding: 10px;
+	margin: 3px 0px;
+>>>>>>> c0045744deb25f731e5b6f71580d354540962e65
 }
 .panel{
 	width: 100%;
@@ -171,6 +176,11 @@ body {
 }
 .job-title {
 	font-size: 24px;
+	right: 0;
+	top: 25px;
+}
+.job-title {
+	font-size: 18px;
 	font-weight: bold;
 	text-decoration: underline;
 	display: block;
