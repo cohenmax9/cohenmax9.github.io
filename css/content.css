@@ -61,13 +61,8 @@ body {
 }
 .content div{
 	font-size: 18px;
-	padding: 10px;
-	line-height: 24px;
 	color: #fff;
-	display: inline-block;
-	background: black;
-	padding: 10px;
-	margin: 3px 0px;
+    line-height: 30px;
 }
 .panel{
 	width: 100%;
@@ -95,9 +90,10 @@ body {
 	color: #fff;
 }
 .list{
-	list-style-position: outside;
 	list-style-type: square;
-	margin-left: 50px;
+}
+.list li {
+    margin-left: 30px;
 }
 .li li{
 	display: inline;
@@ -130,9 +126,6 @@ body {
 .footnote a{
 	color: #ddd;
 }
-.title {
-	font-size: 30px;
-}
 .content ul{
 	font-size: 18px;
 	padding: 10px;
@@ -143,3 +136,50 @@ body {
 	padding: 10px;
 	margin: 3px 0px;	
 }
+.portfolio-section {
+	background-color: black;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+}
+.portfolio-title {
+	font-size: 30px;
+}
+.portfolio-content {
+	background-color: black;
+	position: relative;
+    margin-bottom: 30px;
+}
+.job-company {
+	font-size: 18px;
+	font-weight: bold;
+	display: inline-block;
+}
+.job-location {
+	font-size: 18px;
+    font-weight: bold;
+	display: inline-block;
+}
+.job-date {
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	top: 0;
+}
+.job-title {
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: underline;
+	display: block;
+	padding: 0;
+}
+.job-description {
+	font-size: 18px;
+	display: block;
+	padding: 0;
+	margin-left: 10px;
+}
+
