@@ -64,7 +64,7 @@ body {
 	padding: 10px;
 	line-height: 24px;
 	color: #fff;
-	display: inline-block;
+	display: block; /* Was inline-block before */
 	background: black;
 	padding: 10px;
 	margin: 3px 0px;
@@ -130,9 +130,6 @@ body {
 .footnote a{
 	color: #ddd;
 }
-.title {
-	font-size: 30px;
-}
 .content ul{
 	font-size: 18px;
 	padding: 10px;
@@ -143,3 +140,43 @@ body {
 	padding: 10px;
 	margin: 3px 0px;	
 }
+.portfolio-section {
+	background-color: black;
+}
+.portfolio-title {
+	font-size: 30px;
+}
+.portfolio-content {
+	background-color: black;
+	position: relative;
+}
+.job-company {
+	font-size: 18px;
+	font-weight: bold;
+	display: inline-block;
+}
+.job-location {
+	font-size: 18px;
+	display: inline-block;
+}
+.job-date {
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 25px;
+}
+.job-title {
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+	display: block;
+	padding: 0;
+}
+.job-description {
+	font-size: 18px;
+	display: block;
+	padding: 0;
+	margin-left: 10px;
+}
+
